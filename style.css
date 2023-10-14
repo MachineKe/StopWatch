@@ -2,6 +2,9 @@ body {
   background: orange;
   font-family: sans-serif;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
@@ -40,5 +43,13 @@ button {
     background: white;
     border: solid 1px white;
     color: orange;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }

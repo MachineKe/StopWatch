@@ -2,21 +2,40 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="website icon"
+      type="jpg"
+      href="https://res.cloudinary.com/dmpposta9/image/upload/v1697312127/StopWatch/mmwcfyi9tkwm2617gxkp.png"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta property="og:title" content="Vanilla Javascript StopWatch" />
+    <meta
+      property="og:description"
+      content="Made a stopWatch using HTML, CSS, JAVASCRIPT"
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dmpposta9/image/upload/v1697312127/StopWatch/mmwcfyi9tkwm2617gxkp.png"
+    />
+    <meta
+      property="og:url"
+      content="https://markkiprotich.w3spaces.com/StopWatch/index.html"
+    />
+    <title>StopWatch</title>
   </head>
   <body>
     <div class="wrapper">
-      <h1>STOPWATCH</h1>
-      <h2>VANILLA JAVASCRIPT STOPWATCH</h2>
+      <h1><strong>STOPWATCH</strong></h1>
+      <h2><strong>VANILLA JAVASCRIPT STOPWATCH</strong></h2>
       <p><span id="seconds">00</span>:<span id="tens">00</span></p>
-      <button id="button-start">Start</button>
-      <button id="button-stop">Stop</button>
-      <button id="button-reset">Reset</button>
+      <div class="button">
+        <button id="button-start"><strong>Start</strong></button>
+        <button id="button-stop"><strong>Stop</strong></button>
+        <button id="button-reset"><strong>Reset</strong></button>
+      </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
